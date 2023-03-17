@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-const FeedbackContext = createContext();
+const FeedbackContext = createContext(); //use context
 
 export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState([
