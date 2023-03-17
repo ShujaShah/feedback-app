@@ -16,7 +16,7 @@ function Header({ text, bgColor, color }) {
 }
 // Here we are using default props, which will set the default value of the props
 Header.defaultProps = {
-  text: "Feedback header",
+  text: "Give Your Valuable Feedback",
   bgColor: "rgba(0,0,0,0.4)",
   color: "#ff6a95",
 };
