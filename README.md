@@ -1,5 +1,7 @@
 # Getting Started with Feedback App
 
+Live URL: https://feedback-ratings.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project is meant to create a dynamic feedback app
 
