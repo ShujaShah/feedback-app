@@ -8,7 +8,7 @@ function RatingSelect({ select }) {
 
   useEffect(() => {
     setSelected(feedbackEdit.item.rating);
-  });
+  }, []);
 
   const handleChange = (e) => {
     setSelected(+e.currentTarget.value);
